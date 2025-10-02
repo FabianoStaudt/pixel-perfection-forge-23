@@ -23,7 +23,7 @@ const NavItem: React.FC<NavItemProps> = ({ icon, label, alt }) => {
 
 export const BottomNavigation: React.FC = () => {
   return (
-    <nav className="bg-white flex items-stretch gap-px mt-3 px-px py-2" role="navigation" aria-label="Bottom navigation">
+    <nav className="bg-white flex items-stretch gap-px mt-3 px-px py-2 max-w-[329px] w-full" role="navigation" aria-label="Bottom navigation">
       <NavItem
         icon="https://api.builder.io/api/v1/image/assets/596cae79151343ccbce7af8efaebec04/c3b236b53d700faab0c98c5e15dff62fac115254?placeholderIfAbsent=true"
         label="Filtros"
